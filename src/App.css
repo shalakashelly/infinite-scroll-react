@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.page__title {
+  display: flex;
+  padding: 10px 15px;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  font-weight: bolder;
+}
+
+.list__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-weight: bolder;
+  border-bottom: 1px solid grey;
+}
+
+.loading__bottom {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  margin: 10px auto;
+  width: fit-content;
+  z-index: 999;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 15px 20px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 16%;
+  left: 45%;
+  margin: 10px auto;
+  width: fit-content;
+  z-index: 999;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 15px 20px;
+}
+
+.list--wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow: auto;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+}
+
+.book {
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 1px solid grey;
+}
+
+.book__image {
+  max-width: 50px;
+  height: 75px;
+  padding-right: 15px;
+}
+
+.book__details {
+  display: flex;
+  flex-direction: column;
+}
