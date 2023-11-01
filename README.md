@@ -64,4 +64,4 @@ This project was created to showcase the power and flexibility of infinite scrol
 
 If you have any questions or feedback regarding this project, please feel free to [open an issue](https://github.com/your-username/infinite-scroll-react/issues). Your input is highly appreciated!
 
-Enjoy using Infinite Scroll React!
+Enjoy using Infinite Scroll in React!
